@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(
           name: "Au10tixSecureMeKit",
           url: "https://github.com/au10tixmobile/Au10tixSecureMeKit/archive/refs/tags/3.28.0.zip",
-          checksum: "617c17736e1b6db63c419b19111b70bc0083f548e43796b7d1034d0290c535f7"
+          checksum: "8e28d5d612d3c78b36ff68505cec3703dc46d28f75c718da045fa3ae7aaaaf1b"
         )
     ]
 )
