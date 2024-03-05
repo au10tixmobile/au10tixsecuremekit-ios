@@ -14,21 +14,9 @@ import Foundation
 let package = Package(
     name: "au10tixsecuremekit-ios",
     products: [ 
-        .library(name: "Au10tixCore", targets: ["Au10tixCore"]),
-        .library(name: "Au10tixBaseUI", targets: ["Au10tixBaseUI"]),
         .library(name: "Au10tixSecureMeKit", targets: ["Au10tixSecureMeKit"])
     ],
     targets: [
-        .binaryTarget(
-          name: "Au10tixCore",
-          url: "https://github.com/au10tixmobile/Au10tixCore/archive/refs/tags/4.0.0.zip",
-          checksum: "ed5691a5d3bf0e519daa6c0e814c9900d77bd6db00aac68b1931afc87d6683f6"
-        ),
-        .binaryTarget(
-          name: "Au10tixBaseUI",
-          url: "https://github.com/au10tixmobile/Au10tixBaseUI/archive/refs/tags/4.0.0.zip",
-          checksum: "42eec055956b9973b0daef9548816b7a20f11baf33518010f73205d683e32fa4"
-        ),
         .binaryTarget(
           name: "Au10tixSecureMeKit",
           url: "https://github.com/au10tixmobile/Au10tixSecureMeKit/archive/refs/tags/4.0.0.zip",
