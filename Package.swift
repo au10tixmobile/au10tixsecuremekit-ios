@@ -21,18 +21,18 @@ let package = Package(
     targets: [
         .binaryTarget(
           name: "Au10tixCore",
-          url: "https://github.com/au10tixmobile/Au10tixCore/archive/refs/tags/3.28.0.zip",
-          checksum: "d9124ee6ebb0989c5a5590f7de5d26419bb0e0cca016eeaae457f4ee71c15b2e"
+          url: "https://github.com/au10tixmobile/Au10tixCore/archive/refs/tags/4.0.0.zip",
+          checksum: "ed5691a5d3bf0e519daa6c0e814c9900d77bd6db00aac68b1931afc87d6683f6"
         ),
         .binaryTarget(
           name: "Au10tixBaseUI",
-          url: "https://github.com/au10tixmobile/Au10tixBaseUI/archive/refs/tags/3.28.0.zip",
-          checksum: "e3812351794a528b808704a99665690af8437fb55e184d7ab65df7b14fd1cdc2"
+          url: "https://github.com/au10tixmobile/Au10tixBaseUI/archive/refs/tags/4.0.0.zip",
+          checksum: "42eec055956b9973b0daef9548816b7a20f11baf33518010f73205d683e32fa4"
         ),
         .binaryTarget(
           name: "Au10tixSecureMeKit",
-          url: "https://github.com/au10tixmobile/Au10tixSecureMeKit/archive/refs/tags/3.28.0.zip",
-          checksum: "8e28d5d612d3c78b36ff68505cec3703dc46d28f75c718da045fa3ae7aaaaf1b"
+          url: "https://github.com/au10tixmobile/Au10tixSecureMeKit/archive/refs/tags/4.0.0.zip",
+          checksum: "89e3a83fcba32eea32439f6e457e923c0c5e4a340b820783cef6a3c5ac90749c"
         )
     ]
 )
